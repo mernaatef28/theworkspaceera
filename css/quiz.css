@@ -1,0 +1,78 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+
+/* The image used */
+background-image: url("../images/background1.png")  ;
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: repeat;
+background-size: cover;
+ 
+}
+.app{
+    background :palevioletred;
+    max-width: 900px;
+    margin: 350px auto 0;
+    border-radius: 10px;
+    border: 1px solid rgb(105, 105, 105);
+    padding: 30px;
+    opacity: 0.8;
+    
+}
+.app h1{
+    font-size: 25px;
+    color: #001e4d;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+}
+.app h2{
+    font-size: 25px;
+    color: #393d43;
+    font-weight: 550;
+
+}
+.quiz{
+    padding: 20px 0;
+}
+.rightbtn{
+    margin-left: 100px ;
+}
+
+  
+.leftbtn{
+    margin-left: 300px;
+    
+}
+.btn.active {
+    background-color: #28a745; /* Green for YES button */
+    border-color: #28a745;
+}
+
+.btn.rightbtn.active {
+    background-color: #dc3545; /* Red for NO button */
+    border-color: #dc3545;
+}
+#next-btn {
+    background: #001e4d;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0 ;
+    padding: 10px;
+    margin: 20px auto 0 ;
+    border-radius: 4px;
+    cursor: pointer ;
+    display: block;
+}
+.btn.active {
+    background-color: #007bff;
+    color: white;
+}
